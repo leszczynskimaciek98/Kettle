@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/login_screen_hi"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text_hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andada"
+        android:text="@string/login_screen_hi_hi"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <LinearLayout
+        android:id="@+id/grey_element"
+        android:orientation="horizontal"
+        android:layout_width="390dp"
+        android:layout_height="430dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/login_screen_hi_element"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintHorizontal_bias="0.475"/>
+    <LinearLayout
+        android:id="@+id/white_element_facebook"
+        android:orientation="horizontal"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_screen_hi_element_facebook"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.702"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/white_element_google"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_screen_hi_element_google"
+        android:orientation="horizontal"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <EditText
+        android:id="@+id/text_email"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/login_screen_hi_email"
+        android:paddingStart="25dp"
+        android:textSize="19dp"
+        android:fontFamily="@font/andada"
+        android:textColor="@color/text_color_email"
+        android:background="@drawable/login_screen_hi_textwindow_email"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.40" />
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/login_screen_hi_continue"
+        android:fontFamily="@font/andada"
+        android:textColor="@color/white"
+        android:background="@drawable/login_screen_hi_continue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_or"
+        android:layout_height="50dp"
+        android:layout_width="320dp"
+        android:text="@string/login_screen_hi_or"
+        android:fontFamily="@font/andada"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:background="@null"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/image_fb"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/facebook"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_google"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/google_icon"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_facebook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/login_screen_hi_facebook"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/andada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.723"
+        app:layout_constraintHorizontal_bias="1.05" />
+
+    <TextView
+        android:id="@+id/text_google"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/login_screen_hi_google"
+        android:textSize="19sp"
+        android:fontFamily="@font/andada"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.823"
+        app:layout_constraintHorizontal_bias="1.05"/>
+
+    <TextView
+        android:id="@+id/no_account"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/login_screen_hi_noaccount"
+        android:textSize="19sp"
+        android:fontFamily="@font/andada"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:linksClickable="true"
+        android:text="@string/login_screen_hi_sign_up"
+        android:textSize="19sp"
+        android:fontFamily="@font/andada"
+        android:textColor="@color/text_color_sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:layout_constraintHorizontal_bias="2.6"/>
+
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/login_screen_hi_forgotpassword"
+        android:textSize="19sp"
+        android:fontFamily="@font/andada"
+        android:textColor="@color/text_color_sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

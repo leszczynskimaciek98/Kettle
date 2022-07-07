@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Kettle_v2</string>
+
+    //login_screen_hi
+    <string name="login_screen_hi_hi">Hi!</string>
+    <string name="login_screen_hi_email">Email</string>
+    <string name="login_screen_hi_continue">Continue</string>
+    <string name="login_screen_hi_or">or</string>
+    <string name="login_screen_hi_facebook">Continue with Facebook</string>
+    <string name="login_screen_hi_google">Continue with Google</string>
+    <string name="login_screen_hi_noaccount">Don\'t have an account yet?</string>
+    <string name="login_screen_hi_forgotpassword">Forgot your password?</string>
+    <string name="login_screen_hi_sign_up"><a href="https://www.google.pl/">Sign up</a></string>
+
+
+    //login_screen_sign_up
+    <string name="login_screen_sign_up_sign_up">Sign up</string>
+    <string name="login_screen_sign_up_no_account">Looks like you don\'t have an account yet.\nLet\'s create a new account for</string>
+    <string name="login_screen_sign_up_name">Name</string>
+    <string name="login_screen_sign_up_password">Password</string>
+    <string name="login_screen_sign_up_terms_of_policy">By selecting Agree and continue below\nI agree to Terms of Service and Privacy Policy</string>
+    <string name="login_screen_sign_up_agree">Agree and continue</string>
+
+</resources>
